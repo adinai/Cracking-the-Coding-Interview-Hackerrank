@@ -8,6 +8,9 @@ import sys
 
 # Complete the stringConstruction function below.
 def stringConstruction(s):
+    return len(set(s));
+#set is a datastructure for constructing and manipulating unordered collections of unique elements.
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
